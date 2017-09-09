@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 12, 2016, 4:48:43 PM
+    Author     : Khanh
+*/
+.seat, .seat-header{
+    height:80px;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+.seat1{
+    background: #eea236;
+    height:80px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+.seat2{
+    background: red;
+    height:80px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding:5px;
+    margin-bottom: 10px;
+}

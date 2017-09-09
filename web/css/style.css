@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+} 
+.container-fluid {
+    padding: 60px 50px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+<!--form register-->
+.btn-boking{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-radius: 2px;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.form-booking{
+    padding: 0px 30px 30px;
+    border-top: 4px solid rgb(69, 150, 214); 
+    background-color: #31708f; 
+    color: rgb(255, 255, 255);
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+.text-primary{
+    color: #eea236;
+}
+
+.bg-gray{
+    background: #ddd;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.center-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hotline{
+    color:white;
+    background:#f4511e;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.border{
+    border: 1px solid #d1d1d1;
+    padding: 20px 10px;
+}
+.form-register{
+    margin:auto; width: 60%
+}
